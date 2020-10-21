@@ -15,10 +15,12 @@
 
 ## ScreenShots
 
-![CleanShot 2020-09-08 at 22.58.51.png](https://i.loli.net/2020/09/08/N9B4Xs8V3xraTFc.png)
-![CleanShot 2020-09-08 at 23.00.24.png](https://i.loli.net/2020/09/08/f3Wxir2sXDMzROn.png)
-![Screen Shot 2020-09-09 at 22.07.36.png](https://i.loli.net/2020/09/09/2TWSa3G6lnKprAZ.png)
+![System Information](https://i.loli.net/2020/09/08/N9B4Xs8V3xraTFc.png)
+![Neofetch Result From Terminal](https://i.loli.net/2020/09/08/f3Wxir2sXDMzROn.png)
+![AirDrop](https://i.loli.net/2020/09/09/2TWSa3G6lnKprAZ.png)
 
-## Todo
+## USB mapping
 
-- [ ] USB ports
+USB mapping done with Hackintool, Thunderbolt 3 interface not included as Thunderbolt devices must be plugged in before booting up.
+
+![USB Mapping in Hackintool](https://i.loli.net/2020/10/21/ePVj9tz8FSIkgyB.png)
