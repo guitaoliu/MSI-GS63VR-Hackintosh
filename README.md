@@ -15,9 +15,9 @@
 
 ## ScreenShots
 
-![System Information](https://i.loli.net/2020/09/08/N9B4Xs8V3xraTFc.png)
-![Neofetch Result From Terminal](https://i.loli.net/2020/09/08/f3Wxir2sXDMzROn.png)
-![AirDrop](https://i.loli.net/2020/09/09/2TWSa3G6lnKprAZ.png)
+![System Information](https://i.loli.net/2020/11/13/bma3ioNSUlwyFM8.png)
+![Neofetch Result From Terminal](https://i.loli.net/2020/11/13/g3QMJj9lx2iDGSs.png)
+![AirDrop](https://i.loli.net/2020/11/13/7nkXsmoVNIcMuWx.png)
 
 ## USB mapping
 
