@@ -114,6 +114,8 @@
 		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -179,46 +181,36 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAbWQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAw5HycAAAAAAAYAQSVIhNg6m+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUAWMIQAAAaUiuAoHA4H0AwIDUAWMIQAAAaAAAA/gAzODc0WYAxNTZXRjYKAAAAAAAAQTGeABAAAAoBCiAgAGI=</data>
 				<key>device-id</key>
 				<data>G1kAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
-				<key>enable-hdmi-dividers-fix</key>
-				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>EgAAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>EgAAAA==</data>
+				<key>framebuffer-con2-index</key>
+				<data>/////w==</data>
 				<key>framebuffer-con2-type</key>
 				<data>AAgAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-portcount</key>
+				<data>AgAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel HD Graphics 630</string>
 			</dict>
@@ -436,7 +428,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCLightSensor</string>
 				<key>MaxKernel</key>
@@ -783,6 +775,8 @@
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
@@ -812,7 +806,7 @@
 	<dict>
 		<key>BlessOverride</key>
 		<array>
-			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+			<string>\EFI\systemd\systemd-bootx64.efi</string>
 		</array>
 		<key>Boot</key>
 		<dict>
@@ -868,6 +862,8 @@
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
+			<key>BlacklistAppleUpdate</key>
+			<false/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>DmgLoading</key>
@@ -882,10 +878,10 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
-			<key>SecureBootModel</key>
-			<string>Default</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
+			<key>SecureBootModel</key>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -904,6 +900,10 @@
 				<string>CleanNvram</string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -918,6 +918,10 @@
 				<string>GopStop</string>
 				<key>Path</key>
 				<string>GopStop.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -932,6 +936,10 @@
 				<string>OpenShell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -946,6 +954,10 @@
 				<string>ResetSystem</string>
 				<key>Path</key>
 				<string>ResetSystem.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -960,6 +972,10 @@
 				<string>VerifyMsrE2</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -974,6 +990,10 @@
 				<string>RtcRw</string>
 				<key>Path</key>
 				<string>RtcRw.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -991,7 +1011,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>brcmfx-aspm alcid=98</string>
+				<string>brcmfx-aspm alcid=98 -v</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1051,21 +1071,78 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C027307014NJ1JHJC</string>
+			<string>C02742403GUJ1JH1F</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
+			<integer>1797</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V4SYSHTD5</string>
+			<string>C02VKAZKHTD5</string>
 			<key>SystemUUID</key>
-			<string>1C7054D1-4B44-4057-BD8F-2DE3A32D8541</string>
+			<string>0597C390-1416-454C-9E5A-ABDEDCBDD9A9</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>10/06/2020</string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string>429.40.5.0.0</string>
+			<key>BoardAssetTag</key>
+			<string>Base Board Asset Tag</string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-551B86E5744E2388</string>
+			<key>BoardSerialNumber</key>
+			<string>C02742403GUJ1JH1F</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>MacBookPro14,3</string>
+			<key>ChassisAssetTag</key>
+			<string>Asset Tag#</string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>C02VKAZKHTD5</string>
+			<key>ChassisType</key>
+			<integer>9</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-551B86E5744E2388</string>
+			<key>FirmwareFeatures</key>
+			<data>fvUP/wAAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f/8f/wAAAAA=</data>
+			<key>PlatformFeature</key>
+			<integer>26</integer>
+			<key>ProcessorType</key>
+			<integer>1797</integer>
+			<key>SmcVersion</key>
+			<data></data>
+			<key>SystemFamily</key>
+			<string>MacBook Pro</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>MacBookPro14,3</string>
+			<key>SystemSKUNumber</key>
+			<string>System SKU#</string>
+			<key>SystemSerialNumber</key>
+			<string>C02VKAZKHTD5</string>
+			<key>SystemUUID</key>
+			<string>0597C390-1416-454C-9E5A-ABDEDCBDD9A9</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1106,7 +1183,7 @@
 			<key>MinimumVolume</key>
 			<integer>20</integer>
 			<key>PlayChime</key>
-			<true/>
+			<string></string>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
