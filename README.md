@@ -1,5 +1,9 @@
 # MSI-GS63VR-Hackintosh
 
+## Quick Start
+
+If your laptop model is the same as mine, MSI GS63VR 7rf, the configuration works without modification. But you may need to change SMBIOS to enable iMessage and other Apple proprietary features. Windows dual system is enabled by default, please modify the config file and remove [EFI/Microsoft](EFI/Microsoft) if you don't need it.
+
 ## Devices
 
 | Specifications      | Details                        |
