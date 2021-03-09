@@ -19,9 +19,9 @@ If your laptop model is the same as mine, MSI GS63VR 7rf, the configuration work
 
 ## ScreenShots
 
-![System Information](https://i.loli.net/2020/11/13/bma3ioNSUlwyFM8.png)
-![Neofetch Result From Terminal](https://i.loli.net/2020/11/13/g3QMJj9lx2iDGSs.png)
-![AirDrop](https://i.loli.net/2020/11/13/7nkXsmoVNIcMuWx.png)
+![System Information](./img/system-information.png)
+![Neofetch Result From Terminal](./img/neofetch.png)
+![AirDrop](./img/airdrop.png)
 
 ## USB mapping
 
