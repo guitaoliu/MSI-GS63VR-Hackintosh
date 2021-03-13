@@ -758,7 +758,7 @@
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -973,7 +973,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>VerifyMsrE2</string>
 				<key>Path</key>
@@ -1079,7 +1079,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02744600GUJ1JHCB</string>
+			<string>C02710306CDJ1JH1F</string>
 			<key>ProcessorType</key>
 			<integer>1797</integer>
 			<key>ROM</key>
@@ -1091,9 +1091,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VM0LLHTD5</string>
+			<string>C02TD0REHTD5</string>
 			<key>SystemUUID</key>
-			<string>0B3B1653-4EF5-4A06-BC92-FD43000CD777</string>
+			<string>4B3AF82D-F5EB-4728-8391-650E241953FD</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1112,7 +1112,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-551B86E5744E2388</string>
 			<key>BoardSerialNumber</key>
-			<string>C02744600GUJ1JHCB</string>
+			<string>C02710306CDJ1JH1F</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1122,7 +1122,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02VM0LLHTD5</string>
+			<string>C02TD0REHTD5</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1146,9 +1146,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VM0LLHTD5</string>
+			<string>C02TD0REHTD5</string>
 			<key>SystemUUID</key>
-			<string>0B3B1653-4EF5-4A06-BC92-FD43000CD777</string>
+			<string>4B3AF82D-F5EB-4728-8391-650E241953FD</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>

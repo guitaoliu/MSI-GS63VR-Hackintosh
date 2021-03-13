@@ -4,6 +4,8 @@
 
 If your laptop model is the same as mine, MSI GS63VR 7rf, the configuration works without modification. But you may need to change SMBIOS to enable iMessage and other Apple proprietary features. Windows dual system is enabled by default, please modify the config file and remove [EFI/Microsoft](EFI/Microsoft) if you don't need it.
 
+The default setting is with cfg lock disabled. cfg lock could be easily disable in BIOS. Please enter BIOS and press R-CTRL, R-SHIFT, L-ALT and F2, and find cfg lock and Advanced -> Power & Performance -> CPU -> Power Management Control -> CPU Lock Configure. If you don't want to do this, enable Kernel -> Quirks -> AppleCpuPmCfgLock and Kernel -> Quirks -> AppleXcpmCfgLock.
+
 ## Devices
 
 | Specifications      | Details                        |
