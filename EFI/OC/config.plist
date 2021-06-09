@@ -793,6 +793,8 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
@@ -872,6 +874,8 @@
 			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
+			<key>AllowToggleSip</key>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -908,6 +912,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>CleanNvram</string>
 				<key>Path</key>
@@ -926,6 +932,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>GopStop</string>
 				<key>Path</key>
@@ -944,6 +952,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>OpenShell</string>
 				<key>Path</key>
@@ -962,6 +972,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>ResetSystem</string>
 				<key>Path</key>
@@ -980,6 +992,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>VerifyMsrE2</string>
 				<key>Path</key>
@@ -998,6 +1012,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>RtcRw</string>
 				<key>Path</key>
@@ -1080,12 +1096,12 @@
 		<false/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
+			<key>AdviseFeatures</key>
 			<false/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02730200GUJ1JHUE</string>
+			<string>C02739101CDJ1JHJA</string>
 			<key>ProcessorType</key>
 			<integer>1797</integer>
 			<key>ROM</key>
@@ -1097,9 +1113,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V4078HTD5</string>
+			<string>C02VG5Z4HTD5</string>
 			<key>SystemUUID</key>
-			<string>3AB4B105-6D5E-4823-970A-63D344FB9B2F</string>
+			<string>8B0F849D-CF81-40EA-B63D-394CF8C0B988</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1118,7 +1134,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-551B86E5744E2388</string>
 			<key>BoardSerialNumber</key>
-			<string>C02730200GUJ1JHUE</string>
+			<string>C02739101CDJ1JHJA</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1128,7 +1144,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02V4078HTD5</string>
+			<string>C02VG5Z4HTD5</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1152,9 +1168,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V4078HTD5</string>
+			<string>C02VG5Z4HTD5</string>
 			<key>SystemUUID</key>
-			<string>3AB4B105-6D5E-4823-970A-63D344FB9B2F</string>
+			<string>8B0F849D-CF81-40EA-B63D-394CF8C0B988</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1260,7 +1276,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<false/>
+			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
@@ -1285,6 +1301,8 @@
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
+			<false/>
+			<key>AppleEg2Info</key>
 			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
