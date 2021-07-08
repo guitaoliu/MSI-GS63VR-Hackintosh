@@ -110,6 +110,8 @@
 			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
+			<key>SyncTableIds</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Booter</key>
@@ -804,6 +806,8 @@
 		</dict>
 		<key>Scheme</key>
 		<dict>
+			<key>CustomKernel</key>
+			<false/>
 			<key>FuzzyMatch</key>
 			<false/>
 			<key>KernelArch</key>
@@ -1101,7 +1105,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02739101CDJ1JHJA</string>
+			<string>C02732501CDJ1JHCB</string>
 			<key>ProcessorType</key>
 			<integer>1797</integer>
 			<key>ROM</key>
@@ -1113,18 +1117,18 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VG5Z4HTD5</string>
+			<string>C02V6ZZYHTD5</string>
 			<key>SystemUUID</key>
-			<string>8B0F849D-CF81-40EA-B63D-394CF8C0B988</string>
+			<string>ED22CD8A-F92D-4FFD-B85E-0AE3245A57F8</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>02/26/2021</string>
+			<string>04/22/2021</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>429.100.7.0.0</string>
+			<string>429.120.4.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -1134,7 +1138,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-551B86E5744E2388</string>
 			<key>BoardSerialNumber</key>
-			<string>C02739101CDJ1JHJA</string>
+			<string>C02732501CDJ1JHCB</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1144,7 +1148,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02VG5Z4HTD5</string>
+			<string>C02V6ZZYHTD5</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1168,9 +1172,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VG5Z4HTD5</string>
+			<string>C02V6ZZYHTD5</string>
 			<key>SystemUUID</key>
-			<string>8B0F849D-CF81-40EA-B63D-394CF8C0B988</string>
+			<string>ED22CD8A-F92D-4FFD-B85E-0AE3245A57F8</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
