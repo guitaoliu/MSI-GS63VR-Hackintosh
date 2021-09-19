@@ -17,7 +17,7 @@ The default setting is with cfg lock disabled. cfg lock could be easily disable 
 | Integrated Graphics | Intel HD Graphics 630          |
 | Ethernet            | Killer E2500                   |
 | Sound Card          | ALC899 Layout-id: 98           |
-| Wireless Card       | DW1560                         |
+| Wireless Card       | DW1560 (Replaced)              |
 
 ## ScreenShots
 
@@ -25,8 +25,12 @@ The default setting is with cfg lock disabled. cfg lock could be easily disable 
 ![Neofetch Result From Terminal](./img/neofetch.png)
 ![AirDrop](./img/airdrop.png)
 
-## USB mapping
+## USB Mapping
 
 USB mapping done with Hackintool, Thunderbolt 3 interface not included as Thunderbolt devices must be plugged in before booting up.
 
 ![USB Mapping in Hackintool](https://i.loli.net/2020/10/21/ePVj9tz8FSIkgyB.png)
+
+## Wireless Card
+
+The origin wireless card is replaced with DW1560 for fully functional continuity features. If you prefer not to replace the card, please follow [OpenIntelWireless](https://github.com/OpenIntelWireless) project for wifi and bluetooth support, through which Handoff and Universal Clipboard would be the only supported features. 
