@@ -55,8 +55,8 @@ USB mapping done with Hackintool, Thunderbolt 3 interface not included as Thunde
   <img src="https://i.loli.net/2020/10/21/ePVj9tz8FSIkgyB.png" alt="USB Mapping" width="50%">
   <br>
   <em style="color: grey">USB Mapping</em>
-</p> 
+</p>
 
 ## Wireless Card
 
-The origin wireless card is replaced with DW1560 for fully functional continuity features. If you prefer not to replace the card, please follow [OpenIntelWireless](https://github.com/OpenIntelWireless) project for wifi and bluetooth support, through which Handoff and Universal Clipboard would be the only supported features. 
+The origin wireless card is replaced with DW1560 for fully functional continuity features. If you prefer not to replace the card, please follow [OpenIntelWireless](https://github.com/OpenIntelWireless) project for wifi and bluetooth support, through which Handoff and Universal Clipboard would be the only supported features.
