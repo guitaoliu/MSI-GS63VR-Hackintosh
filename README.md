@@ -23,26 +23,26 @@ The default setting is with cfg lock disabled. cfg lock could be easily disable 
 
 <table>
 <tr>
-  <td> 
+  <td>
     <p align="center" style="padding: 10px">
       <img alt="System Information" src="img/system-information.png">
       <br>
       <em style="color: grey">System Information</em>
-    </p> 
+    </p>
   </td>
-  <td> 
+  <td>
     <p align="center">
       <img alt="Neofetch Result From Terminal" src="img/neofetch.png">
       <br>
       <em style="color: grey">Neofetch</em>
-    </p> 
+    </p>
   </td>
-  <td> 
+  <td>
     <p align="center">
       <img alt="AirDrop" src="img/airdrop.png">
       <br>
       <em style="color: grey">AirDrop</em>
-    </p> 
+    </p>
   </td>
 </tr>
 </table>
