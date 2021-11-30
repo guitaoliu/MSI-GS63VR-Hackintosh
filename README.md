@@ -1,4 +1,6 @@
-# MSI-GS63VR-Hackintosh
+# This repository is no longer maintained.
+
+For personal reasons, this repo will not be maintained. Please refer to the OpenCore documentation for future updates.
 
 ## Quick Start
 
